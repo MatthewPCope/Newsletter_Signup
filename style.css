@@ -1,0 +1,29 @@
+:root {
+    --color-tomato:  hsl(4, 100%, 67%);
+    --color-dark-slate-grey:  hsl(234, 29%, 20%);
+    --color-charcoal-grey: hsl(235, 18%, 26%);
+    --color-grey: hsl(231, 7%, 60%);
+    --color-white:hsl(0, 0%, 100%);
+    
+    --space-unit: 1.6em;
+    --space-xxs: calc(0.25 * var(--space-unit));
+    --space-xs: calc(0.5 * var(--space-unit));
+    --space-sm: calc(0.75 * var(--space-unit));
+    --space-md: calc(1.25 * var(--space-unit));
+    --space-lg: calc(2 * var(--space-unit));
+    --space-xl: calc(3.25 * var(--space-unit));
+    --space-xxl: calc(5.25 * var(--space-unit));
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    background-color: #ecf2f8;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--color-charcoal-grey);
+}
