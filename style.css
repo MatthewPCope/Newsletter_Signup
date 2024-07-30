@@ -21,7 +21,7 @@
 }
 html {
     font-size: 62.5%;
-    background-color: #ecf2f8;
+    background-color: var(--color-white);
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -35,7 +35,16 @@ body {
 }
 .main-area{
     padding: var(--space-lg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-sm);
 }
 h1{
     font-size: 3.2rem;
+}
+p, li{
+    font-size: 1.6rem;
+}
+li{
+    margin-top: var(--space-sm);
 }
