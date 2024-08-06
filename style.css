@@ -78,3 +78,6 @@ ul{
     border-radius: 9px;
     border-color: var(--color-grey);
 }
+.success-message{
+    padding: 2rem;
+}
