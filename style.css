@@ -27,20 +27,22 @@ body {
     font-family: "Roboto", sans-serif;
     color: var(--color-charcoal-grey);
 }
-.images{
+/* .images{
     background-image: url('assets/images/illustration-sign-up-mobile.svg');
     height: 24rem;
     background-size:cover;
     border-radius: 0 0 20px 20px;
-}
-.text{
+} */
 
-}
 .main-area{
     padding: var(--space-lg);
     /* display: flex;
     flex-direction: column;
     gap: var(--space-sm); */
+}
+.main img{
+    width: 100%;
+    height: auto;
 }
 h1{
     font-size: 3.2rem;
