@@ -37,8 +37,8 @@ body {
     justify-content: flex-start;
     align-items: stretch;
     gap: 2.4rem;
-    padding: 4rem 2.4rem;
-    font-size: 1.6rem;
+    padding: 3.6rem 2.4rem;
+    font-size: 1.4rem;
     font-weight: 400;
     line-height: 1.5;
 }
@@ -113,6 +113,7 @@ input.alert {
     background-color: var(--color-dark-slate-grey);
     padding: var(--space-sm);
     width: 100%;
+    font-weight: 700;
     min-height: 5.6rem;
     border-radius: 10px;
     border: none;
@@ -120,4 +121,80 @@ input.alert {
 .btn:hover {
     background: linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%);
     box-shadow: 0rem 1.6rem 3.2rem 0rem var(--color-tomato);
+}
+
+.success-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 4rem 2.4rem;
+    min-height: 100vh;
+}
+.success-message h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+    line-height: 100%;
+}
+.icon {
+    margin-bottom: 4.2rem;
+}
+.btn {
+    margin-top: auto;
+}
+
+@media (min-width: 48em) {
+    body {
+        background: var(--color-charcoal-grey);
+        display: grid;
+        place-content: center;
+        height: 100vh;
+    }
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 6.4rem;
+        flex-direction: row-reverse;
+        background-color: var(--color-white);
+        max-height: 64.1rem;
+        max-width: 92.8rem;
+        border-radius: 3.6rem;
+        padding: 2.4rem;
+    }
+    .main .main-area {
+        flex: 1;
+        justify-content: center;
+    }
+    .main .main-area h1 {
+        font-size: 4.8rem;
+    }
+    .main picture {
+        flex: 1;
+    }
+    .main picture img {
+        height: 100%;
+    }
+    .success-message {
+        background-color: var(--color-white);
+        max-height: 52rem;
+        min-height: 0vh;
+        max-width: 50.4rem;
+        padding: 6.4rem;
+        border-radius: 3.6rem;
+    }
+    .success-message .icon {
+        margin-bottom: 4rem;
+    }
+    .success-message h1 {
+        margin-bottom: 2.4rem;
+    }
+    .success-message p {
+        margin-bottom: 4rem;
+    }
 }
