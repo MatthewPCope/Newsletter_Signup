@@ -4,15 +4,6 @@
     --color-charcoal-grey: hsl(235, 18%, 26%);
     --color-grey: hsl(231, 7%, 60%);
     --color-white:hsl(0, 0%, 100%);
-    
-    --space-unit: 1.6em;
-    --space-xxs: calc(0.25 * var(--space-unit));
-    --space-xs: calc(0.5 * var(--space-unit));
-    --space-sm: calc(0.75 * var(--space-unit));
-    --space-md: calc(1.25 * var(--space-unit));
-    --space-lg: calc(2 * var(--space-unit));
-    --space-xl: calc(3.25 * var(--space-unit));
-    --space-xxl: calc(5.25 * var(--space-unit));
 }
 * {
     margin: 0;
@@ -42,7 +33,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
 }
-.main .main-area h1{
+h1{
     font-weight: 700;
     font-size: 3.6rem;
     line-height: 1;
@@ -99,19 +90,15 @@ input::placeholder{
 .alert {
     color: var(--color-tomato);
 }
-
 input.alert {
     background: var(--color-dark-slate-grey);
 }
-
 .hidden {
     display: none !important;
 }
-
 .btn{
     color: var(--color-white);
     background-color: var(--color-dark-slate-grey);
-    padding: var(--space-sm);
     width: 100%;
     font-weight: 700;
     min-height: 5.6rem;
@@ -122,7 +109,6 @@ input.alert {
     background: linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%);
     box-shadow: 0rem 1.6rem 3.2rem 0rem var(--color-tomato);
 }
-
 .success-message {
     display: flex;
     flex-direction: column;
